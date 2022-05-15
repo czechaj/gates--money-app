@@ -1,0 +1,50 @@
+.receipt {
+    width: 60vw;
+    margin: 3rem auto;
+}
+
+.receipt-list {
+    list-style: none;
+    text-align: left;
+}
+
+.receipt-list-item {
+    display: flex;
+    list-style: none;
+}
+
+.item-title {
+    margin-right: auto;
+}
+
+.item-piece {
+    position: absolute;
+    top: auto;
+    left: 50%
+}
+
+.item-total {
+    margin-left: auto
+}
+
+.total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 600px) {
+    .receipt {
+        width: 80vw;
+    }
+
+    .receipt-list,
+    .receipt-list-item {
+        padding-left: 0;
+    }
+
+
+
+
+}

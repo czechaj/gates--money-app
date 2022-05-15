@@ -1,0 +1,16 @@
+.amount {
+    background-color: #24C485;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+  /*   z-index:0; */
+}
+
+.money {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}

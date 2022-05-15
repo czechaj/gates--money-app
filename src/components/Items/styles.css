@@ -1,0 +1,93 @@
+ .items {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 4vh;
+     background-color: rgba(128, 128, 128, 0.03);
+     ;
+ }
+
+ .card {
+     margin: 4vh 1vw;
+     flex: 29%;
+     height: 39vh;
+     background-color: white;
+ }
+
+ .items-img {
+
+     width: 70%;
+     height: 23vh;
+ }
+
+ .actions {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ button {
+     width: 4vw;
+     height: 4vh;
+     color: beige;
+     border: none;
+     border-radius: 10%;
+     font-weight: 800;
+ }
+
+
+
+ button:hover {
+     box-shadow: 1px 1px 1px rgb(202, 196, 196);
+ }
+
+ button.sell {
+     color: black;
+     background-color: rgb(234, 230, 230);
+     /*  font-size: 21;*/
+
+ }
+
+ button.buy {
+     background-color: #24C485;
+ }
+
+ button.disabled {
+     visibility: hidden;
+ }
+
+ .actions input {
+     width: 3vw;
+     height: 3.2vh;
+     margin: 0 0.2vw;
+ }
+
+
+
+ @media screen and (max-width: 600px) {
+     .card {
+         flex: 98%;
+         max-height: 50vh;
+         height: fit-content;
+     }
+
+     .card-body {
+         margin-bottom: 20px;
+     }
+
+     .items-img {
+         max-height: 200px;
+         width: 70vw;
+         height: 25vh;
+     }
+
+     button {
+         width: 10vw;
+     }
+
+     .actions input {
+         width: 17vw;
+         margin: 0 2vw;
+         height: 3.1vh
+     }
+
+ }
